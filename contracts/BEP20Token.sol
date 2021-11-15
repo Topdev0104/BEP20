@@ -25,7 +25,7 @@ contract BEP20Token is Context, IBEP20, Ownable {
         uint8 decimals1,
         uint256 amount,
         bool mintable1
-    ) internal {
+    ) external {
         _name = name1;
         _symbol = symbol1;
         _decimals = decimals1;
